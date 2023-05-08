@@ -1,3 +1,6 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
 //go:generate go run ../../generate/listpages/main.go -ListOps=GetApis,GetDomainNames,GetVpcLinks
 //go:generate go run ../../generate/tags/main.go -ListTags -ListTagsOp=GetTags -ServiceTagsMap -UpdateTags
 // ONLY generate directives and package declaration! Do not add anything else to this file.

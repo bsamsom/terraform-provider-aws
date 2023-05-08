@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) HashiCorp, Inc.
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
 import jetbrains.buildServer.configs.kotlin.v2019_2.* // ktlint-disable no-wildcard-imports
 import jetbrains.buildServer.configs.kotlin.v2019_2.buildFeatures.golang
 import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
